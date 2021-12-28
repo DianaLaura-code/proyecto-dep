@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.principal{
+  text-align: left;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 1.15;
+  margin-bottom: 25px;
+}
+
+
+h3{
+  color: #FAD19B;
+}
+
+.texto{
+  font-size: 15px;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+.boton-crear{
+  border-radius: 60px;
+  background: #FC2F4C;
+}
+.font-white{
+  background: white;
+}
+
+.subtitulo{
+  font-weight: bold;
+}
+
+/* Forma de las imagenes Cards */
+
+.circular--landscape{
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.circular--landscape img {
+  width: auto;
+  height: 100%;
+  margin-left: -50px;
+
+  transform: scale(1);
+  transition: all 0.2s ease-in-out;
+}
+
+.circular--landscape img:hover{
+  transform: scale(1.8);
+}
+
+.text-form-p{
+  color: #FAD19B;
+}
+
+li{
+  margin-top: 8px;
+}
+
+.row-iconos{
+  background: #901F35;
+}
+
+
+
+
